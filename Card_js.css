@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+body{
+    background: blueviolet;
+}
+.card{
+    display: flex;
+    width: 70vw;
+    height: auto;
+    
+    padding: 3px;
+    border-radius: 5px ;
+    background-color: black;
+    color: white;
+   margin: auto;
+    
+}
+.thumbnail{
+    position: relative;
+}
+.thumbnail img{
+   
+    border-radius: 5px;
+
+}
+#time-stamp{
+position: absolute;
+right: 0px;
+bottom: 0px;
+margin: 5px;
+padding: 2px;
+background-color: black;
+color: white;
+border-radius: 5px;
+font-size: 12px;
+}
+
+.title{
+    margin: 20px;
+    
+}
+.info span{
+    margin: 0px 10px 0px 20px ;
+    font-size: 14px;
+}
